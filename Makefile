@@ -5,9 +5,8 @@
 #
 # Instruct the installer to copy your credentials to the
 # appropriate location.
-
 install:
-	# Nothing installed
+	@cp credentials.ini hello
 
 run:
 	@(cd hello; python3 hello.py)
